@@ -1,0 +1,107 @@
+/* App.css */
+
+.slick-list.draggable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Button Styling */
+  .visitbtn, .btn2 {
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Center text */
+  .edit1, .edit2, .edit3, .edit4, .edit5 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Text content styling */
+  .text-content, .text-content1 {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 600px) {
+    .visitbtn, .btn2 {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    .side-image, .side-image1 {
+      display: none;
+    }
+  
+    .text-content, .text-content1 {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    ul {
+      padding-left: 0;
+      list-style-position: inside;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .side-image, .side-image1 {
+      width: 40%;
+      margin: 0 auto;
+    }
+  
+    .text-content, .text-content1 {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .visitbtn, .btn2 {
+      width: 50%;
+      font-size: 18px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 1025px) {
+    .side-image, .side-image1 {
+      width: 45%;
+      float: left;
+      margin: 0 20px;
+    }
+  
+    .text-content, .text-content1 {
+      width: 45%;
+      float: right;
+      padding: 20px;
+    }
+  
+    .visitbtn, .btn2 {
+      width: auto;
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  }
+  
