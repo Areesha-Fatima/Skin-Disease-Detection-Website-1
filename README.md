@@ -114,4 +114,4 @@ npm start
 
 **Areesha Fatima**  
 Web Developer | ML-Integrated Applications  
-[LinkedIn](https://linkedin.com) · [GitHub](https://github.com/Areesha-Fatima) · [Portfolio](https://areeshafatima-portfolio.netlify.app)
+[LinkedIn](https://www.linkedin.com/in/areesha-fatima-718659299) · [GitHub](https://github.com/Areesha-Fatima) · [Portfolio](https://areeshafatima-portfolio.netlify.app)
